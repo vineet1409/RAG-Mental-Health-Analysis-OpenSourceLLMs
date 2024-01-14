@@ -14,10 +14,10 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-st.set_page_config(page_title="PsycheAnalytix[Experiment]")
+st.set_page_config(page_title="MindWatch[Experiment]")
 
 # Title and Introduction
-st.title('PsycheAnalytix[Experiment]: Powered by Open-Source LLMs')
+st.title('MindWatch[Experiment]: Powered by Open-Source LLMs')
 st.subheader('A Mental Health Diagnosis GenAI Application')
 st.markdown('Please note that the application may take a while to load models during the initial startup. Your patience is appreciated.')
 
