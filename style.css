@@ -1,0 +1,38 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Style for headers */
+h1 {
+    color: #0e76a8;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Style for text areas */
+textarea {
+    background-color: #fff;
+    border-color: #0e76a8;
+}
+
+/* Style for buttons */
+button {
+    color: #fff;
+    background-color: #0e76a8;
+    border-color: #0e76a8;
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #333;
+}
+
+/* Style for success and error messages */
+.stAlert {
+    background-color: #ebf8ff;
+    border-color: #b6effb;
+}

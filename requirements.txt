@@ -1,0 +1,8 @@
+streamlit
+langchain
+nltk
+transformers
+torch
+langchain
+faiss-cpu
+langchain-google-genai
